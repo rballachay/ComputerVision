@@ -17,7 +17,7 @@ rootdir = 'rootdir'
 outputdir = 'outputdir'
 
 # Walk through subdirectories, find all JPEG files withot blah.jpg 
-in the name and copy over to output directory with parent name
+#in the name and copy over to output directory with parent name
 
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
